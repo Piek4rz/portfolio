@@ -1,0 +1,65 @@
+.mask{
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mask-image: linear-gradient(#000000, #000000);
+    mask-repeat: no-repeat;
+}
+
+.mask:hover .up{
+    animation: goUp 0.2s linear forwards;
+}
+
+.mask:hover .down{
+    animation: goDown 0.2s linear forwards;
+}
+
+.mask:not(:hover) .up{
+    animation: undoGoUp 0.2s linear forwards;
+}
+
+.mask:not(:hover) .down{
+    animation: undoGoDown 0.2s linear forwards;
+}
+
+
+@keyframes goUp {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-20%, -30%);
+    }
+}
+
+@keyframes undoGoUp {
+    0% {
+        transform: translate(-20%, -30%);
+
+    }
+    100% {
+        transform: translate(0, 0);
+
+    }
+}
+
+@keyframes goDown {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(10%, 15%);
+    }
+}
+
+@keyframes undoGoDown {
+    0% {
+        transform: translate(10%, 15%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
