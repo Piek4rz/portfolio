@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Box, Container, Paper, Typography} from "@mui/material";
 import img from "../Assets/me.jpeg";
+import {render} from "@testing-library/react";
 
 const styles = {
     container: {
@@ -20,7 +21,7 @@ const styles = {
     firstBox: {
         maxWidth: '100%',
         '@media (min-width: 901px)': {
-            maxWidth: '40%',
+            maxWidth: '50%',
         },
     },
 
@@ -43,8 +44,8 @@ const styles = {
         },
     },
 };
-class About extends Component {
-    render() {
+const About = ({ darkMode }) => {
+
         return (
             <div>
                 <Box sx={{ background: 'linear-gradient(to right, #228F41, #6ABD00)', minHeight: '85vh', display: 'flex', alignItems: 'center', flexGrow: 1 }}>
@@ -53,8 +54,16 @@ class About extends Component {
                             <Typography variant="h2" gutterBottom>
                                 Hi! I'm <strong>Jakub</strong>
                             </Typography>
-                            <Typography variant="body1">
-                                I am a front-end developer and undergraduate student in technical computer science at Politechnika Wrocławska.
+                            <Typography variant="h6">
+                                I am an energetic front-end developer with a love for details and undergraduate student
+                                in technical computer science at Politechnika Wrocławska. I am fascinated by the process
+                                of creating websites, from design to implementation. In my work, I focus on readable code
+                               and optimized user experience.
+                            </Typography>
+                            <Typography variant="h6">
+                                <br></br>
+                                I would like to join a team where I will be able to develop professionally and actively
+                                participate in projects that bring value and joy to users.
                             </Typography>
                         </Box>
                         <Box sx={styles.secondBox}>
@@ -66,7 +75,7 @@ class About extends Component {
                 </Box>
             </div>
         );
-    }
+
 }
 
 export default About;
