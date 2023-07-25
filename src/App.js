@@ -11,12 +11,14 @@ function App() {
 
     const lightModeStyles = {
         backgroundColor: '#f0f0f0',
-        minHeight: '100vh'
+        minHeight: '100vh',
+        overflowX: 'clip'
     };
 
     const darkModeStyles = {
         backgroundColor: '#161818',
-        minHeight: '100vh'
+        minHeight: '100vh',
+        overflowX: 'clip'
     };
 
     const styles = darkMode ? darkModeStyles : lightModeStyles;

@@ -45,11 +45,11 @@ function SwipeableTextMobileStepper() {
 
     return (
         <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: '#15431D'}}>
-            <div>
-                <Button size="large" onClick={handleBack} disabled={activeStep === 0} sx={{color: 'white'}}>
+            <Box>
+                <Button size="large" onClick={handleBack} disabled={activeStep === 0} sx={{color: 'white', py: 12   }}>
                     {theme.direction === 'rtl' ? <KeyboardArrowRight /> : <KeyboardArrowLeft />}
                 </Button>
-            </div>
+            </Box>
             <AutoPlaySwipeableViews
                 axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
                 index={activeStep}
@@ -62,7 +62,7 @@ function SwipeableTextMobileStepper() {
                 ))}
             </AutoPlaySwipeableViews>
             <div>
-                <Button size="large" onClick={handleNext} disabled={activeStep === maxSteps - 1} sx={{color: 'white'}}>
+                <Button size="large" onClick={handleNext} disabled={activeStep === maxSteps - 1} sx={{color: 'white', py: 12}}>
                     {theme.direction === 'rtl' ? <KeyboardArrowLeft /> : <KeyboardArrowRight />}
                 </Button>
             </div>

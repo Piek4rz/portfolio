@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Box, Container, Paper, Typography} from "@mui/material";
-import img from "../Assets/me.jpeg";
+import img from "../Assets/me.jpg";
 import {render} from "@testing-library/react";
 
 const styles = {
@@ -16,6 +16,7 @@ const styles = {
 
         '@media (max-width: 900px)': {
             flexDirection: 'column',
+
         },
     },
     firstBox: {
@@ -68,7 +69,7 @@ const About = ({ darkMode }) => {
                         </Box>
                         <Box sx={styles.secondBox}>
                             <Paper variant="outlined" sx={styles.paper}>
-                                <img style={{ maxWidth: '100%', height: 'auto' }} src={img} alt="Your Image" />
+                                <img style={{ maxWidth: '100%', height: 'auto' }} src={img}/>
                             </Paper>
                         </Box>
                     </Container>
