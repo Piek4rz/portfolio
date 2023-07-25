@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import {Box, Container, Grid, Typography} from "@mui/material";
 import Button from "@mui/material/Button";
-import pdf from "../Assets/pdf-icon.png"
+import pdf from "../Assets/pdf-icon.png";
+import pdfFile from '../Assets/Jakub_Piekarski_CV.pdf';
+
 
 function Contact({darkMode}) {
 
@@ -22,10 +24,9 @@ function Contact({darkMode}) {
 
 
     const handleDownload = () => {
-            const pdfFile = '/example.pdf';
             const link = document.createElement('a');
             link.href = pdfFile;
-            link.download = 'example.pdf';
+            link.download = 'Jakub_Piekarski_CV.pdf';
             link.target = '_blank';
             link.click();
         }
