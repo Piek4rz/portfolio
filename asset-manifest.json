@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.60fcf31c.css",
+    "main.js": "/portfolio/static/js/main.6dcf3d7a.js",
+    "static/js/496.1811ca5a.chunk.js": "/portfolio/static/js/496.1811ca5a.chunk.js",
+    "static/media/me.jpg": "/portfolio/static/media/me.04c30969be7cf214a621.jpg",
+    "static/media/perelki-logo.png": "/portfolio/static/media/perelki-logo.1243357a5a66da57b7ba.png",
+    "static/media/pixelHeart-logo.png": "/portfolio/static/media/pixelHeart-logo.d1b8689bb8052b06c030.png",
+    "static/media/Rectangle (1).png": "/portfolio/static/media/Rectangle (1).65d1ddd8d9625fa3e8eb.png",
+    "static/media/Rectangle.png": "/portfolio/static/media/Rectangle.0f841ef5fd2824a5c908.png",
+    "static/media/Group 5.png": "/portfolio/static/media/Group 5.123ab79796abe0f802b6.png",
+    "index.html": "/portfolio/index.html",
+    "main.60fcf31c.css.map": "/portfolio/static/css/main.60fcf31c.css.map",
+    "main.6dcf3d7a.js.map": "/portfolio/static/js/main.6dcf3d7a.js.map",
+    "496.1811ca5a.chunk.js.map": "/portfolio/static/js/496.1811ca5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60fcf31c.css",
+    "static/js/main.6dcf3d7a.js"
+  ]
+}
