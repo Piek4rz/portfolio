@@ -77,9 +77,11 @@ class Perelki extends Component {
                                 See website
                             </Button>
                         </a>
-                        <Button variant="contained" color="success" sx={{mt: 4, ml: 4}}>
-                            See app presentation
-                        </Button>
+                        <a href="https://www.figma.com/proto/rL1JcgXeKeYhyWW2jYvUU9/pere%C5%82ki?type=design&node-id=1-2&t=LEOPxtI6IuuZrwHv-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1&mode=design" target="_blank" rel="noopener noreferrer">
+                            <Button variant="contained" color="success" sx={{mt: 4, ml: 4}}>
+                                See app presentation
+                            </Button>
+                        </a>
                     </Box>
 
                 </Box>

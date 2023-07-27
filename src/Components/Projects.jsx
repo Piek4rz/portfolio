@@ -1,9 +1,13 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect, useState} from 'react';
 import {Box, Container, Typography} from "@mui/material";
 import PixelHeart from "./PixelHeart";
 import Perelki from "./Perelki";
+import { animateScroll as scroll } from 'react-scroll';
+import BoxScrollAnim from "./BoxScrollAnim";
 
-function Projects ({darkMode}) {
+
+
+const Projects = ({darkMode})  =>{
 
     const lightModeStyles = {
         backgroundColor: '#fff',
@@ -16,6 +20,7 @@ function Projects ({darkMode}) {
         minHeight: 'calc(100vh - 68px)',
     };
 
+
     const styles = darkMode ? darkModeStyles : lightModeStyles;
 
         return (
@@ -25,8 +30,12 @@ function Projects ({darkMode}) {
                         <Typography variant="h4" sx={{ py: 8 }}>
                             Projects
                         </Typography>
-                        <PixelHeart></PixelHeart>
-                        <Perelki></Perelki>
+                        <BoxScrollAnim id="pixelHeart">
+                            <PixelHeart></PixelHeart>
+                        </BoxScrollAnim>
+                        <BoxScrollAnim id="perelki">
+                            <Perelki></Perelki>
+                        </BoxScrollAnim>
                     </Container>
                 </Box>
             </div>
