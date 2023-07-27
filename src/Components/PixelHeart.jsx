@@ -14,9 +14,11 @@ class PixelHeart extends Component {
         return (
             <div>
                 <Box sx={{ display: 'flex', flexGrow: 1, flexWrap:'wrap', alignItems: 'center', justifyContent: 'space-between', pt: 8, pb: 45}}>
+                    <a href="https://github.com/Piek4rz/PixelHeart" target="_blank" rel="noopener noreferrer">
                     <Box id="images" >
                         <img style={{ maxWidth: '100%', height: 'auto' }} src={pxh}/>
                     </Box>
+                    </a>
 
 
                     <Box sx={{ width: {xs: '100%', sm: '40%'}, mt: { xs: 5, md: 0 } }}>
@@ -26,9 +28,11 @@ class PixelHeart extends Component {
                         <Typography >
                             Web application that allows you to meet new people with similar tastes in video games
                         </Typography>
+                        <a href="https://piek4rz.github.io/PixelHeartWeb/" target="_blank" rel="noopener noreferrer">
                         <Button variant="contained" color="success" sx={{mt: 4}}>
                             See demo
                         </Button>
+                        </a>
                         <a href="https://github.com/Piek4rz/PixelHeart" target="_blank" rel="noopener noreferrer">
                         <Button variant="contained" color="success" sx={{mt: 4, ml: 4}}>
                             Github
