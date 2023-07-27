@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.60fcf31c.css",
-    "main.js": "/portfolio/static/js/main.d1434c8f.js",
+    "main.js": "/portfolio/static/js/main.751cdbcd.js",
     "static/js/496.1811ca5a.chunk.js": "/portfolio/static/js/496.1811ca5a.chunk.js",
     "static/media/me.jpg": "/portfolio/static/media/me.04c30969be7cf214a621.jpg",
     "static/media/perelki-logo.png": "/portfolio/static/media/perelki-logo.1243357a5a66da57b7ba.png",
@@ -12,11 +12,11 @@
     "static/media/Jakub_Piekarski_CV.pdf": "/portfolio/static/media/Jakub_Piekarski_CV.0ecea1f48e96cd8125f0.pdf",
     "index.html": "/portfolio/index.html",
     "main.60fcf31c.css.map": "/portfolio/static/css/main.60fcf31c.css.map",
-    "main.d1434c8f.js.map": "/portfolio/static/js/main.d1434c8f.js.map",
+    "main.751cdbcd.js.map": "/portfolio/static/js/main.751cdbcd.js.map",
     "496.1811ca5a.chunk.js.map": "/portfolio/static/js/496.1811ca5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60fcf31c.css",
-    "static/js/main.d1434c8f.js"
+    "static/js/main.751cdbcd.js"
   ]
 }
